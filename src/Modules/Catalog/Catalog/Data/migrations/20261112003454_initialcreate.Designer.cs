@@ -10,11 +10,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Catalog.Data.Migrations
+namespace Catalog.data.migrations
 {
     [DbContext(typeof(CatalogDbContext))]
-    [Migration("20260512153728_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20261112003454_initialcreate")]
+    partial class initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
